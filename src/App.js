@@ -164,6 +164,15 @@ function App(props) {
             <Card>
                 <CardHeader title="Game Console"/>
                 <CardBody>
+                    <div className="progress">
+                        <div className="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                             aria-valuemax="100"></div>
+                    </div>
+                    <div className="progress">
+                        <div className="progress-bar bg-danger w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                             aria-valuemax="100"></div>
+                    </div>
+
 
                     <Badge id="level"
                            label="Game Level"
